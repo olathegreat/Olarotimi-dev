@@ -1,0 +1,167 @@
+@import "../../public/css/Common.scss";
+
+
+
+   .about{
+    padding:50px;
+    height: auto;
+    
+
+    
+   }  
+
+  .aboutWrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+
+    
+                 
+    
+    
+
+        .details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+           
+            width: 100%;
+    
+        }
+
+        .imageWrapper{
+            flex: 1;
+            object-fit: cover;
+            display: flex;
+            justify-content: end;
+            padding-right: 20px;
+            align-items: center;
+            
+            
+
+           
+        }
+
+        .mainimagewrapper{
+
+            background: linear-gradient(-45deg, rgb(0, 147, 192), rgb(158, 0, 158) );
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+            position: relative;
+            border-radius: 50px;
+            width: fit-content;
+
+
+        }
+         
+        
+        
+        // @keyframes gradient {
+        //     0% {
+        //         background-position: 0% 50%;
+        //     }
+        //     50% {
+        //         background-position: 100% 50%;
+        //     }
+        //     100% {
+        //         background-position: 0% 50%;
+        //     }
+        // }
+
+            .img{
+              
+                
+                -webkit-transform: scaleX(-1);
+                 transform: scaleX(-1);
+                 border-radius: 30px;
+                 width: 300px;
+                 height: 200px;
+                 z-index: -99;
+ }
+
+    .content{
+            font-family: raleway2;
+            color: white;
+            flex: 1;
+            display: flex;
+            height: auto;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 30px;
+            min-width: 300px;
+        }
+
+ 
+      @media (max-width: 890px){
+        .imageWrapper{
+            justify-content: center;
+        }
+      }
+    
+
+
+    @media (max-width:450px) {
+        .img{
+          width: 200px;
+          height:200px;
+        }
+        .content{
+            text-align: center;
+            min-width: auto;
+        }
+
+        
+      }
+
+
+
+
+      @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+}
+
+
+.readLink{
+    color: rgb(0, 147, 192);
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+  
+}
+.content{
+    span{
+        transition: all 2s ease;
+
+    }
+}
+
+
+@media (max-width:450px){
+    .details{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+
+
+
+
+

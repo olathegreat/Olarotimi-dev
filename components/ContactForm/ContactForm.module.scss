@@ -1,0 +1,76 @@
+@import "../../public/css/Common.scss";
+
+.c
+
+.cRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cdesc{
+    font-weight: 200;
+    color: rgb(0,142,197);
+    font-family: raleway2;
+    letter-spacing: 5px;
+    
+}
+
+.contactform form{
+    margin-top: 20px;
+   
+}
+
+.upperInput{
+    width: 100%;
+    justify-content: space-between;
+}
+.contactform input{
+
+    height: 50px;
+    border: none;
+    border: 1px solid rgb(0,142,197);
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    background: transparent;
+}
+.contactform input:focus{
+    border: none;
+}
+.contactform input:second-child{
+    width: 100%;
+}
+.contactform textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid rgb(0,142,197);
+}
+.contactform button{
+    border: none;
+    padding: 15px;
+    background-color: #3271a0;
+    color: white;
+    cursor: pointer;
+    font-weight: 500px;
+    background:transparent;
+    text-align: center;
+    border: 1px solid rgb(0,142,197);
+}
+
+
+.contactform button:hover{
+    background-color: rgb(0, 137, 179);
+    color:rgb(0, 20, 26);
+}
+
+@media (max-width:480px){
+    .contactform input{
+        width: 100%;
+    }
+}

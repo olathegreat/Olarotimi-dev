@@ -1,0 +1,124 @@
+@import "../../public/css/Common.scss";
+
+
+.skills{
+    padding-left: 90px;
+    padding-right: 90px;
+    width: inherit;
+    padding-bottom: 100px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+.content{
+    
+    display: flex;
+    flex-wrap: wrap-reverse;
+    line-height: 30px;
+    align-items: center;
+
+}
+.content .left{
+    flex: 1;
+    font-family: raleway2;
+    color: white;
+    
+}
+.content .right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-right: 30px;
+}
+
+
+
+.skillCard, .skillCards, .skillCardss{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 147, 192, 0.237);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: raleway2;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: .7;
+    transition: all 1s ease;
+}
+
+.skillCards{
+    background-color: rgba(192, 0, 128, 0.237);
+    opacity: .7;
+    transition: all 1s ease;
+}
+
+.cvView{
+    color:  rgb(0, 147, 192);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+    font-size: 1em;
+    font-family: monument-primary;
+    font-weight: 700;
+    text-decoration: none;
+}
+.cvView a{
+    text-decoration: none;
+}
+.cvView a:hover{
+    color: white;
+}
+
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+
+.skillCardss{
+    background-color: rgba(0, 192, 118, 0.237);
+    opacity: .7;
+    transition: all 1s ease;
+}
+.skillCard p{
+    font-size: .85em;
+}
+.skillCards:hover, .skillCard:hover, .skillCardss:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width:480px){
+ 
+    
+    .skills{
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media (max-width:700px){
+    .content .right{
+        min-width: 100%;
+        
+
+    }
+    
+}

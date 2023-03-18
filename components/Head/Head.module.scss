@@ -1,0 +1,45 @@
+@import "../../public/css/Common.scss";
+
+.heading{
+    width: 100%;
+}
+.head{
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hh{
+    color: white;
+    font-family: monument-primary;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    font-size: 2em;
+    
+  
+}
+
+.hr{
+    width: 200px;
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 20px;
+
+    
+        background: linear-gradient(-45deg, rgb(0, 147, 192), rgb(158, 0, 158) );
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

@@ -1,0 +1,114 @@
+@import "../../public/css/Common.scss";
+
+
+.navWrapper{
+    transition: all ease 1s;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 999;
+
+    
+    /* From https://css.glass */
+   
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        font-family: raleway2;
+        background-color: none;
+        flex-wrap: wrap;
+
+       
+        
+       a{
+        text-decoration: none;
+        margin-right: 20px;
+        color: $secondary-color;
+        padding-bottom: 2px;
+        transition: all ease 2.5s;
+       }
+       a:hover{
+        border-bottom: 1px solid orange;
+        padding-bottom: 2px;
+        transition: all ease 2.5s;
+       }
+       h2{
+        margin: 0;
+        font-family:  monument-primary;
+        color: $primary-color;
+       }
+
+      
+    
+    }
+    
+    .fullscreen{
+        display: flex;
+
+        @media (max-width:615px) {
+            display: none;
+            
+
+        }
+    }
+    
+    .mobilescreen{
+        display: none;
+          a{
+        text-decoration: none;
+        margin-right: 20px;
+        cursor: pointer;
+        color: $secondary-color;
+       }
+    
+        @media (max-width:615px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                  
+        }
+          
+    }
+    .mobilescreenmenu{
+
+        transition: all ease 0.5s;
+
+         @media (max-width:615px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+                  
+        }
+        
+        a{
+             text-decoration: none;
+        padding-bottom: 10px;
+        
+        color: $secondary-color;
+        cursor: pointer;
+         font-family: raleway2;
+         padding-bottom: 2px;
+         font-size: 1.5em;
+         margin-bottom: 20px;
+         z-index: 1;
+        }
+        a:hover{
+            border-bottom: 1px solid orange;
+            padding-bottom: 2px;
+            transition: all ease 2.5s;
+           }
+
+    }
+    
+    
+
+}
+
+
+

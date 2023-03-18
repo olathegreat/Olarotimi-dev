@@ -1,0 +1,51 @@
+@import "../../public/css/Common.scss";
+
+
+.cv{
+  padding-top: 100px;
+  display: flex;
+  
+  color: white;
+  font-family: raleway1;
+  flex-direction: column;
+  align-items: center;
+
+}
+.imgwrapper{
+    width: 600px;
+
+    height: auto;
+}
+
+.cv a{
+    border: 1px solid rgb(0, 147, 192);
+    padding: 10px;
+    margin: 20px;
+    font-family: raleway1;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.cv a:hover{
+    background-color: rgb(0, 137, 179);
+    color:rgb(0, 20, 26);
+}
+
+.cv h3{
+    color:white;
+    font-family: monument-primary;
+    font-size: 1em;
+    margin: 20px;
+    
+}
+
+@media (max-width: 600px){
+    .imgwrapper{
+
+        width: 300px;
+    
+        height: auto;
+    }
+}
