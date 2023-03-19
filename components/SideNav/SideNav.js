@@ -16,7 +16,7 @@ const SideNav = () => {
             <FaLinkedin color="rgb(0, 147, 192)" size="25px" />
           </Link>
 
-          <Link href="https://github.com/olathegreat">
+          <Link href="mailto:ademolarotimi2000@gmail.com">
             <FaEnvelope color="rgb(0, 147, 192)" size="25px" />
           </Link>
           <div className={styles.hl}></div>
