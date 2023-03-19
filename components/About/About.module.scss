@@ -55,7 +55,7 @@
             background-size: 400% 400%;
             animation: gradient 5s ease infinite;
             position: relative;
-            border-radius: 50px;
+            border-radius: 20px;
             width: fit-content;
 
 
@@ -80,12 +80,16 @@
                 
                 -webkit-transform: scaleX(-1);
                  transform: scaleX(-1);
-                 border-radius: 30px;
+                 border-radius: 10px;
+                 filter: grayscale(1);
                  width: 300px;
                  height: 200px;
                  z-index: -99;
- }
+                 transition: all 1s ease;
 
+                 
+ }
+ 
     .content{
             font-family: raleway2;
             color: white;
@@ -113,7 +117,7 @@
           height:200px;
         }
         .content{
-            text-align: center;
+            
             min-width: auto;
         }
 
@@ -155,6 +159,11 @@
     .details{
         padding-left: 5px;
         padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .content{
+        padding-top: 40px;
     }
 }
 

@@ -51,11 +51,11 @@ const Nav = () => {
 
         <div className={styles.right}>
           <div className={styles.fullscreen}>
-            <Link href="#">Home</Link>
-            <Link href="#about">About</Link>
-            <Link href="#project">Project</Link>
-            <Link href="#skill">Skills</Link>
-            <Link href="#contact">Contact</Link>
+            <Link href="/">Home</Link>
+            <Link href="/#about">About</Link>
+            <Link href="/#project">Project</Link>
+            <Link href="/#skill">Skills</Link>
+            <Link href="/#contact">Contact</Link>
           </div>
 
           <div className={styles.mobilescreen} onClick={handleNav}>
@@ -68,11 +68,11 @@ const Nav = () => {
         className={styles.mobilescreenmenu}
         style={{ display: nav ? "flex" : "none", transition: "all ease 0.5s" }}
       >
-        <Link href="#">Home</Link>
-        <Link href="#">About</Link>
-        <Link href="#">Project</Link>
-        <Link href="#">Skills</Link>
-        <Link href="#">Contact</Link>
+        <Link href="/">Home</Link>
+        <Link href="/#about">About</Link>
+        <Link href="/#project">Project</Link>
+        <Link href="/#skill">Skills</Link>
+        <Link href="/#contact">Contact</Link>
       </div>
     </nav>
   );

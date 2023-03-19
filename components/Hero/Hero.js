@@ -5,8 +5,6 @@ import styles from "./Hero.module.scss";
 import Image from "next/image";
 
 const Hero = () => {
-  
-
   return (
     <main className={styles.main}>
       <div className={styles.heroWrapper}>
@@ -23,20 +21,20 @@ const Hero = () => {
         </div>
 
         <div className={styles.right}>
-        
-{/*    
+          {/*    
             <Image
               src="/assets/img/robot.png"
               alt="hero image"
               width="250"
               height="250"
             ></Image> */}
-             <img className={styles.img}
+          
+            <img
+              className={styles.img}
               src="/assets/img/robot.png"
               alt="hero image"
-             
-            /> 
-       
+            />
+          
         </div>
       </div>
     </main>

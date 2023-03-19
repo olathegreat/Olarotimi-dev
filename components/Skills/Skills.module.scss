@@ -65,10 +65,9 @@
 .cvView{
     color:  rgb(0, 147, 192);
     background-size: 400% 400%;
-    animation: gradient 2s ease infinite;
     font-size: 1em;
     font-family: monument-primary;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 .cvView a{
@@ -79,17 +78,7 @@
 }
 
 
-@keyframes gradient {
-0% {
-    background-position: 0% 50%;
-}
-50% {
-    background-position: 100% 50%;
-}
-100% {
-    background-position: 0% 50%;
-}
-}
+
 
 
 .skillCardss{

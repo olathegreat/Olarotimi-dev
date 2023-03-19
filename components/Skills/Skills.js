@@ -14,6 +14,7 @@ const Skills = () => {
 
       <div className={styles.content}>
         <div className={styles.left}>
+          <AnimationOnScroll animateIn="animate__slideInLeft">
           As a front-end web developer, I am proficient in a range of
           technologies.I specialize in front-end development and excel in
           building fast, user-friendly, and responsive websites using best
@@ -32,11 +33,17 @@ const Skills = () => {
           </ul>
           
           <p className={styles.cvView}><Link href="/CV">View My CV &#8594;</Link></p>
+
+          </AnimationOnScroll>
+        
+
+        
         </div>
 
         <div className={styles.right}>
 
-            <div className={styles.skillCard}>
+          <AnimationOnScroll animateIn="animate__fadeIn">
+          <div className={styles.skillCard}>
                 <h3>
                     Front End 
                 </h3>
@@ -47,8 +54,12 @@ const Skills = () => {
                 </p>
 
             </div>
+            
+          </AnimationOnScroll>
 
+          
 
+          <AnimationOnScroll animateIn="animate__fadeIn">
             <div className={styles.skillCards}>
                 <h3>
                     Backend 
@@ -59,7 +70,8 @@ const Skills = () => {
                 </p>
 
             </div>
-
+            </AnimationOnScroll>
+            <AnimationOnScroll animateIn="animate__fadeIn">
             <div className={styles.skillCardss}>
                 <h3>
                     Version Control
@@ -70,6 +82,7 @@ const Skills = () => {
                 </p>
 
             </div>
+            </AnimationOnScroll>
 
         </div>
       </div>
