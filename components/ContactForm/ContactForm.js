@@ -1,11 +1,13 @@
 import React from "react";
 import { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import emailjs from "emailjs-com";
 import styles from "./ContactForm.module.scss";
 
 const ContactForm = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,6 +23,7 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
+          // navigate("/");
         },
         (error) => {
           console.log(error.text);
