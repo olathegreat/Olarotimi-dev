@@ -49,7 +49,7 @@ const Skills = () => {
                 </h3>
 
                 <p>
-                  HTML, CSS, JavaScript, ReactJS, jQuery
+                  HTML, CSS, JavaScript, Typescript, React, NextJS, jQuery
                   CSS frameworks.
                 </p>
 
