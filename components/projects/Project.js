@@ -11,6 +11,14 @@ const Project = () => {
 
   const Data = [
     {
+      id:0,
+      description:"",
+      name:"EvoGym",
+      technology:"Typescript, React, Framer Motion, Tailwind ",
+      img:"/assets/img/evogym.png",
+      link:"https://gym-app-sigma.vercel.app/"
+    },
+    {
         id:1,
         description: "",
         name:"Cars.ng",
