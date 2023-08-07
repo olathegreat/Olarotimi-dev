@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./Nav.module.scss";
 
 const Nav = () => {
@@ -13,6 +13,10 @@ const Nav = () => {
     setNav(!nav);
     // setScrollYes(!scrollYes);
   };
+
+  const cancelNav = () =>{
+    setNav(!nav);
+  }
 
   useEffect(() => {
     const changeColor = () => {
@@ -58,8 +62,11 @@ const Nav = () => {
             <Link href="/#contact">Contact</Link>
           </div>
 
-          <div className={styles.mobilescreen} onClick={handleNav}>
+          <div className={styles.mobilescreen} style={{display:nav ? "none" : "block"}} onClick={handleNav}>
             <FaBars color={"#2c3e50"} />
+          </div>
+          <div className={styles.mobilescreen} style={{display:nav ? "block" : "none"}} onClick={cancelNav}>
+            <FaTimes color={"#2c3e50"} />
           </div>
         </div>
       </div>
