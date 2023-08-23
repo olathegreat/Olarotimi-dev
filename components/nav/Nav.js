@@ -62,11 +62,11 @@ const Nav = () => {
             <Link href="/#contact">Contact</Link>
           </div>
 
-          <div className={styles.mobilescreen} style={{display:nav ? "none" : "block"}} onClick={handleNav}>
-            <FaBars color={"#2c3e50"} />
+          <div className={styles.mobilescreen} >
+            <FaBars color={"#2c3e50"} style={{display:nav ? "none" : "block"}} onClick={handleNav}/>
           </div>
-          <div className={styles.mobilescreen} style={{display:nav ? "block" : "none"}} onClick={cancelNav}>
-            <FaTimes color={"#2c3e50"} />
+          <div className={styles.mobilescreen} >
+            <FaTimes color={"#2c3e50"} style={{display:nav ? "block" : "none"}} onClick={cancelNav}/>
           </div>
         </div>
       </div>
