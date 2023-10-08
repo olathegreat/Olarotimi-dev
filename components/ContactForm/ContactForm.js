@@ -37,7 +37,7 @@ const ContactForm = () => {
 
   return (
     <div className={styles.contactform}>
-        {done && <div className={styles.thank}>Your message has been sent, I'll will be in touch soon. Thank you</div>}
+        {done && <div className={styles.thank}>Your message has been sent, I&apos;ll will be in touch soon. Thank you</div>}
       <div className={styles.cRight}>
         <p className={styles.cdesc}>
           <b>What &apos;s your story</b> Get in touch. Always available for
