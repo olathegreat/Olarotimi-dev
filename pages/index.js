@@ -9,6 +9,7 @@ import Contact from '@/components/Contact/Contact'
 import Project from '@/components/projects/Project'
 
 import styles from "./index.module.scss";
+import UIProject from "@/components/uiprojects/UIProject";
 
 const index = () => {
   return (
@@ -25,6 +26,10 @@ const index = () => {
       <section>
         <Project />
       </section>
+
+      {/* <section>
+        <UIProject/>
+      </section> */}
 
       <section>
         <Skills />

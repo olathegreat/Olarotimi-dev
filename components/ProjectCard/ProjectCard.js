@@ -27,9 +27,7 @@ const ProjectCard = ({item}) => {
  
               
              </Link> */}
-             {
-               console.log(item.id)
-             }
+           
 
              
 

@@ -84,6 +84,19 @@ const Skills = () => {
             </div>
             </AnimationOnScroll>
 
+            <AnimationOnScroll animateIn="animate__fadeIn">
+            <div className={styles.skillCardsss}>
+                <h3>
+                    UI/UX Design
+                </h3>
+
+                <p>
+                  Figma, Adobe Xd, Adobe Illustrator, Photoshop
+                </p>
+
+            </div>
+            </AnimationOnScroll>
+
         </div>
       </div>
     </div>

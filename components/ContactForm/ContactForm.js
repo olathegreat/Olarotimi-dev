@@ -25,8 +25,8 @@ const ContactForm = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
-          alert("submitted");
-          router.push('/')
+          // alert("submitted");
+          // router.push('/')
           // navigate("/");
         },
         (error) => {
@@ -37,6 +37,7 @@ const ContactForm = () => {
 
   return (
     <div className={styles.contactform}>
+        {done && <div className={styles.thank}>Your message has been sent, I'll will be in touch soon. Thank you</div>}
       <div className={styles.cRight}>
         <p className={styles.cdesc}>
           <b>What &apos;s your story</b> Get in touch. Always available for
@@ -53,7 +54,7 @@ const ContactForm = () => {
           <textarea rows="5" placeholder="Message" name="message"></textarea>
           <button>Submit</button>
 
-          {done && "thank you"}
+        
         </form>
       </div>
     </div>

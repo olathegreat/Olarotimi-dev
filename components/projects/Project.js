@@ -19,6 +19,23 @@ const Project = () => {
       link:"https://gym-app-sigma.vercel.app/"
     },
     {
+      id:7,
+      description:"",
+      name:"GetLinkedAi",
+      technology:"React.js and sass",
+      img:"/assets/img/getlinkedai.png",
+      link:"https://getlinkedai-iota.vercel.app/"
+  },
+  {
+    id:9,
+    description: "",
+    name:"Planti Dashboard",
+    technology:"Reactjs, Custom css",
+    img:"/assets/img/plantidashboard.png",
+    link:"https://planti-dashboard.vercel.app/"
+
+},
+    {
         id:1,
         description: "",
         name:"Cars.ng",
@@ -68,13 +85,24 @@ const Project = () => {
 
     },
     {
-        id:7,
-        description:"",
-        name:"Omnifood",
-        technology:"HTML, CSS, Bootstrap CSS, Vanilla.js, Google APIs",
-        img:"/assets/img/omnifood.png",
-        link:"https://omnifood-rho.vercel.app/"
-    }
+      id:8,
+      description: "",
+      name:"Color Game",
+      technology:"Reactjs, Custom css",
+      img:"/assets/img/colorgame.png",
+      link:"https://react-color-game.vercel.app/"
+
+  },
+  {
+    id:10,
+    description: "",
+    name:"Todo List",
+    technology:"Reactjs, Typescript, Custom css",
+    img:"/assets/img/todolist.png",
+    link:"https://todo-typescript-gamma-three.vercel.app/"
+
+},
+  
 ] 
 
 
@@ -124,6 +152,8 @@ const Project = () => {
         <Head justify="baseline" content="PROJECTS"/>
 
         <div className={styles.contentWrapper}>
+
+         
 
           {display}
           
