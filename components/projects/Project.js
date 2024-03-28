@@ -27,6 +27,15 @@ const Project = () => {
       link:"https://getlinkedai-iota.vercel.app/"
   },
   {
+    id:11,
+    description: "",
+    name:"NFT mobile landing page",
+    technology:"Reactjs, Vercel, Tailwind css",
+    img:"/assets/img/nft.png",
+    link:"https://nftmobilelandingpage.vercel.app/"
+  
+  },
+  {
     id:9,
     description: "",
     name:"Planti Dashboard",
@@ -100,6 +109,15 @@ const Project = () => {
     technology:"Reactjs, Typescript, Custom css",
     img:"/assets/img/todolist.png",
     link:"https://todo-typescript-gamma-three.vercel.app/"
+
+},
+{
+  id:11,
+  description: "",
+  name:"NFT mobile landing page",
+  technology:"Reactjs, Vercel, Tailwind css",
+  img:"/assets/img/nft.png",
+  link:"https://nftmobilelandingpage.vercel.app/"
 
 },
   
