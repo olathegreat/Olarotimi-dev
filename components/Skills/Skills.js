@@ -56,6 +56,7 @@ const Skills = () => {
             </div>
             
           </AnimationOnScroll>
+          
 
           
 

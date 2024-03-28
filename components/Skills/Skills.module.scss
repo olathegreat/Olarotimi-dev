@@ -43,7 +43,7 @@
 .skillCard, .skillCards, .skillCardss{
     width: 200px;
     height: 200px;
-    background-color: rgba(0, 147, 192, 0.237);
+    background-color: rgba(0, 147, 192, 0.844);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -58,7 +58,7 @@
 .skillCardsss{
     width: 200px;
     height: 200px;
-    background-color: rgba(186, 192, 0, 0.237);
+    background-color: rgba(234, 133, 0, 0.905);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@
 }
 
 .skillCards{
-    background-color: rgba(192, 0, 128, 0.237);
+    background-color: rgba(192, 0, 128, 0.716);
     opacity: .7;
     transition: all 1s ease;
 }
@@ -97,7 +97,7 @@
 
 
 .skillCardss{
-    background-color: rgba(0, 192, 118, 0.237);
+    background-color: rgba(0, 192, 118, 0.681);
     opacity: .7;
     transition: all 1s ease;
 }
