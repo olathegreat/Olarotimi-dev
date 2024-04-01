@@ -19,6 +19,15 @@ const Project = () => {
       link:"https://gym-app-sigma.vercel.app/"
     },
     {
+      id:11,
+      description: "",
+      name:"NFT mobile landing page",
+      technology:"Reactjs, Vercel, Tailwind css",
+      img:"/assets/img/nft.png",
+      link:"https://nftmobilelandingpage.vercel.app/"
+    
+    },
+    {
       id:7,
       description:"",
       name:"GetLinkedAi",
@@ -26,15 +35,7 @@ const Project = () => {
       img:"/assets/img/getlinkedai.png",
       link:"https://getlinkedai-iota.vercel.app/"
   },
-  {
-    id:11,
-    description: "",
-    name:"NFT mobile landing page",
-    technology:"Reactjs, Vercel, Tailwind css",
-    img:"/assets/img/nft.png",
-    link:"https://nftmobilelandingpage.vercel.app/"
-  
-  },
+
   {
     id:9,
     description: "",
@@ -44,21 +45,14 @@ const Project = () => {
     link:"https://planti-dashboard.vercel.app/"
 
 },
-    {
-        id:1,
-        description: "",
-        name:"Cars.ng",
-        technology:"HTML, CSS, Bootstrap css, PHP",
-        img:"/assets/img/carsng.png",
-        link:"https://cars.ng",
-    },
+   
     {
         id:2,
         description: "",
         name:"ApplyForMe",
         technology:"Reactjs, Custom CSS",
         img:"/assets/img/applyforme.png",
-        link:"https://cars.ng",
+        link:"https://www.applyforme.com",
     },
     {
         id:3,
@@ -111,15 +105,7 @@ const Project = () => {
     link:"https://todo-typescript-gamma-three.vercel.app/"
 
 },
-{
-  id:11,
-  description: "",
-  name:"NFT mobile landing page",
-  technology:"Reactjs, Vercel, Tailwind css",
-  img:"/assets/img/nft.png",
-  link:"https://nftmobilelandingpage.vercel.app/"
 
-},
   
 ] 
 
