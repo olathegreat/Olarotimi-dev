@@ -28,6 +28,15 @@ const Project = () => {
     
     },
     {
+      id:13,
+      description: "",
+      name:"Food Ordering App",
+      technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
+      img:"/assets/img/merneat.png",
+      link:"https://mern-food-ordering-app-frontend-alg3.onrender.com/"
+  
+  },
+    {
       id:7,
       description:"",
       name:"GetLinkedAi",
