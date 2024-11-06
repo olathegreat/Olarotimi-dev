@@ -15,14 +15,14 @@ const Skills = () => {
       <div className={styles.content}>
         <div className={styles.left}>
           <AnimationOnScroll animateIn="animate__slideInLeft">
-          As a front-end web developer, I am proficient in a range of
-          technologies.I specialize in front-end development and excel in
+          As a full stack software developer, I am proficient in a range of
+          technologies.I specialize in front-end and backend development and excel in
           building fast, user-friendly, and responsive websites using best
           practices. My expertise includes creating small and medium web
           applications, custom plugins and features, as well as implementing
           interactive layouts and animations using HTML, CSS, and JavaScript.
         
-          I have also completed several courses and certifications in front-end
+          I have also completed several courses and certifications in web 
           development, including:
 
           <ul style={{marginTop:"20px", marginLeft:"50px"}}>
@@ -67,7 +67,7 @@ const Skills = () => {
                 </h3>
 
                 <p>
-                  NodeJs, Laravel, Expressjs
+                  NodeJs, Expressjs, Mongo Db
                 </p>
 
             </div>

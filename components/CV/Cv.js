@@ -8,7 +8,7 @@ const Cv = () => {
     <div className={styles.cv} >
         <h3>C v</h3>
         <div className={styles.imgwrapper}>
-        <Image src="/assets/img/olarotimicv.jpg" width="300" objectFit="cover" height="200" layout="responsive" alt='cv'/>
+        <Image src="/assets/img/cv.png" width="300" objectFit="cover" height="200" layout="responsive" alt='cv'/>
         </div>
 
         <Link href="mailto:ademolarotimi2000@gmail.com">Contact Me</Link>

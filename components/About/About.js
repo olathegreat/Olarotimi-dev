@@ -50,7 +50,7 @@ const About = () => {
             <AnimationOnScroll animateIn="animate__slideInRight">
             <div>
                 <span>
-                As a front-end web developer with over 3 years of experience, I
+                As a full stack web developer with over 3 years of experience, I
               have developed a deep understanding of what it takes to create
               compelling, user-friendly websites. I hold a Bachelor&apos;s degree in
               Computer Engineering from Obafemi Awolowo University University,
