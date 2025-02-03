@@ -50,7 +50,7 @@ const Project = () => {
     description: "A chat app with direct and channel message feature, for both text and media files",
     name:"CommonRoom",
     technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
-    img:"/assets/img/chat.png",
+    img:"/assets/img/chatapp.png",
     link: "https://commonroom.onrender.com/"
   },
     {
