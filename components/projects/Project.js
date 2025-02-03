@@ -72,14 +72,14 @@ const Project = () => {
 
 },
    
-    {
-        id:2,
-        description: "",
-        name:"ApplyForMe",
-        technology:"Reactjs, Custom CSS",
-        img:"/assets/img/applyforme.png",
-        link:"https://www.applyforme.com",
-    },
+    // {
+    //     id:2,
+    //     description: "",
+    //     name:"ApplyForMe",
+    //     technology:"Reactjs, Custom CSS",
+    //     img:"/assets/img/applyforme.png",
+    //     link:"https://www.applyforme.com",
+    // },
     {
         id:3,
         description: "",
@@ -122,15 +122,15 @@ const Project = () => {
       link:"https://react-color-game.vercel.app/"
 
   },
-  {
-    id:10,
-    description: "",
-    name:"Todo List",
-    technology:"Reactjs, Typescript, Custom css",
-    img:"/assets/img/todolist.png",
-    link:"https://todo-typescript-gamma-three.vercel.app/"
+//   {
+//     id:10,
+//     description: "",
+//     name:"Todo List",
+//     technology:"Reactjs, Typescript, Custom css",
+//     img:"/assets/img/todolist.png",
+//     link:"https://todo-typescript-gamma-three.vercel.app/"
 
-},
+// },
 
   
 ] 
