@@ -19,6 +19,15 @@ const Project = () => {
       link:"https://gym-app-sigma.vercel.app/"
     },
     {
+      id:20,
+      description:"Doctor appointment booking app, with payments and chat",
+      name:"Medico",
+      technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb,socketio, paystack",
+      img: "/assets/img/medico.png",
+      link:"https://medico-w92y.onrender.com/"
+
+    },
+    {
       id:11,
       description: "",
       name:"NFT mobile landing page",
@@ -29,12 +38,20 @@ const Project = () => {
     },
     {
       id:13,
-      description: "",
-      name:"Food Ordering App",
+      description: "Food ordering app with payment, cart for restaurants in locations like london, manchester, etc",
+      name:"Mern Eats",
       technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
       img:"/assets/img/merneat.png",
       link:"https://mern-food-ordering-app-frontend-alg3.onrender.com/"
   
+  },
+  {
+    id:14,
+    description: "A chat app with direct and channel message feature, for both text and media files",
+    name:"CommonRoom",
+    technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
+    img:"/assets/img/chat.png",
+    link: "https://commonroom.onrender.com/"
   },
     {
       id:7,
