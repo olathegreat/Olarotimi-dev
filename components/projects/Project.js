@@ -2,147 +2,23 @@ import React from "react";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import styles from "./Projects.module.scss";
-import ProjectCard from "../ProjectCard/ProjectCard";
 import Link from "next/link";
 import Head from "../Head/Head";
+import { webProjectData } from "./ProjectData";
 
 
 const Project = () => {
 
-  const Data = [
-    {
-      id:0,
-      description:"",
-      name:"EvoGym",
-      technology:"Typescript, React, Framer Motion, Tailwind ",
-      img:"/assets/img/evogym.png",
-      link:"https://gym-app-sigma.vercel.app/"
-    },
-    {
-      id:20,
-      description:"Doctor appointment booking app, with payments and chat",
-      name:"Medico",
-      technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb,socketio, paystack",
-      img: "/assets/img/medico.png",
-      link:"https://medico-w92y.onrender.com/"
-
-    },
-    {
-      id:11,
-      description: "",
-      name:"NFT mobile landing page",
-      technology:"Reactjs, Vercel, Tailwind css",
-      img:"/assets/img/nft.png",
-      link:"https://nftmobilelandingpage.vercel.app/"
-    
-    },
-    {
-      id:13,
-      description: "Food ordering app with payment, cart for restaurants in locations like london, manchester, etc",
-      name:"Mern Eats",
-      technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
-      img:"/assets/img/merneat.png",
-      link:"https://mern-food-ordering-app-frontend-alg3.onrender.com/"
-  
-  },
-  {
-    id:14,
-    description: "A chat app with direct and channel message feature, for both text and media files",
-    name:"CommonRoom",
-    technology:"Reactjs, Typescript, Nodejs, Expressjs, MongoDb, stripejs",
-    img:"/assets/img/chatapp.png",
-    link: "https://commonroom.onrender.com/"
-  },
-    {
-      id:7,
-      description:"",
-      name:"GetLinkedAi",
-      technology:"React.js and sass",
-      img:"/assets/img/getlinkedai.png",
-      link:"https://getlinkedai-iota.vercel.app/"
-  },
-
-  {
-    id:9,
-    description: "",
-    name:"Planti Dashboard",
-    technology:"Reactjs, Custom css",
-    img:"/assets/img/plantidashboard.png",
-    link:"https://planti-dashboard.vercel.app/"
-
-},
-   
-    // {
-    //     id:2,
-    //     description: "",
-    //     name:"ApplyForMe",
-    //     technology:"Reactjs, Custom CSS",
-    //     img:"/assets/img/applyforme.png",
-    //     link:"https://www.applyforme.com",
-    // },
-    {
-        id:3,
-        description: "",
-        name:"CoinSearch",
-        technology:"Reactjs, Custom CSS, CoinGecko API",
-        img:"/assets/img/coinsearch.png",
-        link:"https://coinsearch.vercel.app/",
-    },
-    {
-        id:4,
-        description: "",
-        name:"ImageSearcher",
-        technology:"Reactjs, Material UI, Unsplash Api",
-        img:"/assets/img/imagesearch.png",
-        link:"https://imagesearcher.vercel.app/",
-    },
-    {
-        id:5,
-        description: "",
-        name:"Metabnb",
-        technology:"Reactjs, Custom css",
-        img:"/assets/img/metabnb.png",
-        link:"https://metabnb-tau.vercel.app/"
-    },
-    {
-        id:6,
-        description: "",
-        name:"LinkTree",
-        technology:"Reactjs, Custom css, styled Components",
-        img:"/assets/img/linktree.png",
-        link:"https://hnginternship-task-1.vercel.app/"
-
-    },
-    {
-      id:8,
-      description: "",
-      name:"Color Game",
-      technology:"Reactjs, Custom css",
-      img:"/assets/img/colorgame.png",
-      link:"https://react-color-game.vercel.app/"
-
-  },
-//   {
-//     id:10,
-//     description: "",
-//     name:"Todo List",
-//     technology:"Reactjs, Typescript, Custom css",
-//     img:"/assets/img/todolist.png",
-//     link:"https://todo-typescript-gamma-three.vercel.app/"
-
-// },
-
-  
-] 
+  const Data = webProjectData
 
 
   const display = Data.map((item) => {
     const { description, name, technology, image, link } = item;
 
-    // return    <ProjectCard item={item}/>
+    
     return (
 
-      <AnimationOnScroll animateIn="animate__bounceIn"  key={item.id}>
+      <AnimationOnScroll animateIn="animate__bounceIn" duration={2} key={item.id}>
       <div className={styles.pllist}>
         <div className={styles.p}>
           <div className={styles.pbrowser}>
@@ -171,18 +47,14 @@ const Project = () => {
   return (
     <div id="project" className={styles.projects}>
       <div className={styles.projectsWrapper}>
-        {/* <div className={styles.head}>
-          <AnimationOnScroll animateIn="animate__bounceIn">
-            <p className={styles.hh}>PORTFOLIO</p>
-          </AnimationOnScroll>
-
-          <div className={styles.hr}></div>
-        </div> */}
+        
 
         <Head justify="baseline" content="PROJECTS"/>
-
+        <div className={styles.projectHeader}>
+              web work
+            </div>
         <div className={styles.contentWrapper}>
-
+            
          
 
           {display}

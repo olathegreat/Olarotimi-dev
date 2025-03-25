@@ -54,6 +54,7 @@
     margin-bottom: 10px;
     opacity: .7;
     transition: all 1s ease;
+    cursor: pointer;
 }
 .skillCardsss{
     width: 200px;
@@ -69,6 +70,7 @@
     margin-bottom: 10px;
     opacity: .7;
     transition: all 1s ease;
+    cursor: pointer;
 }
 
 .skillCards{
@@ -104,7 +106,7 @@
 .skillCard p{
     font-size: .85em;
 }
-.skillCards:hover, .skillCard:hover, .skillCardss:hover{
+.skillCards:hover,.skillCardsss:hover, .skillCard:hover, .skillCardss:hover{
     opacity: 1;
 }
 
