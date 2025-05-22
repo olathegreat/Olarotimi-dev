@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div className={styles.footerContainer}>
             <div>Developed by <span className={styles.olarotimi}>Olarotimi &#128640;</span></div>
-            <div>&copy;  2023</div>
+            <div>&copy;  2025</div>
 
         </div>
 

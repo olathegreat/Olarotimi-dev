@@ -50,13 +50,13 @@ const About = () => {
             <AnimationOnScroll animateIn="animate__slideInRight">
             <div>
                 <span>
-                As a full stack web developer with over 3 years of experience, I
+                As a full stack  developer with over 3 years of experience, I
               have developed a deep understanding of what it takes to create
-              compelling, user-friendly websites. I hold a Bachelor&apos;s degree in
+              compelling, user-friendly websites and mobile apps. I hold a Bachelor&apos;s degree in
               Computer Engineering from Obafemi Awolowo University University,
               and have completed several certifications in front-end
-              development, including courses in HTML, CSS, JavaScript and React
-              Js. &#129299;
+              development, including courses in HTML, CSS, JavaScript, Typescript, React & React
+              Native. &#129299;
 
                 </span>
                 <span className={styles.readLink} style={{display:!readmore? "block" : "none"}} onClick={()=>setReadmore(true)}> read more</span>

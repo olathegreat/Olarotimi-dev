@@ -26,7 +26,9 @@ const Skills = () => {
           development, including:
 
           <ul style={{marginTop:"20px", marginLeft:"50px"}}>
-            <li>Coursera web development bootcamp</li>
+             <li>B Sc. Computer Engineering </li>
+              <li>Coursera web development bootcamp</li>
+              <li>React native mobile app develoment course.</li>
             <li>Sidehustle Reactjs bootcamp</li>
             <li>Zuri Fullstack dvelopment Cohort</li>
             <li>Hotels.NG  internship <span style={{color:"rgb(0, 147, 192)"}}> (HNGi9 Finalist)</span></li>
@@ -49,8 +51,8 @@ const Skills = () => {
                 </h3>
 
                 <p>
-                  HTML, CSS, JavaScript, Typescript, React, NextJS, jQuery
-                  CSS frameworks.
+                  HTML, CSS, JavaScript, Typescript, React, NextJS,
+                  CSS frameworks, React Native.
                 </p>
 
             </div>
@@ -88,7 +90,7 @@ const Skills = () => {
             <AnimationOnScroll animateIn="animate__fadeIn">
             <div className={styles.skillCardsss}>
                 <h3>
-                    UI/UX Design
+                    Design
                 </h3>
 
                 <p>

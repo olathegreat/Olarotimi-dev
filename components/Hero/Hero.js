@@ -15,7 +15,7 @@ const Hero = () => {
 
           <p>
             I design and develop services for customers of all sizes,
-            specialising in creating stylish, modern websites, web services and
+            specialising in creating stylish, modern websites and mobile apps, web services and
             online stores.&#128526;
           </p>
         </div>
